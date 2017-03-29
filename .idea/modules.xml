@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DubboSSM.iml" filepath="$PROJECT_DIR$/DubboSSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api_goods/api_goods.iml" filepath="$PROJECT_DIR$/api_goods/api_goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api_user/api_user.iml" filepath="$PROJECT_DIR$/api_user/api_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed_tools/distributed_tools.iml" filepath="$PROJECT_DIR$/distributed_tools/distributed_tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq_consumer/mq_consumer.iml" filepath="$PROJECT_DIR$/mq_consumer/mq_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_goods/service_goods.iml" filepath="$PROJECT_DIR$/service_goods/service_goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_user/service_user.iml" filepath="$PROJECT_DIR$/service_user/service_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_goods/web_goods.iml" filepath="$PROJECT_DIR$/web_goods/web_goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_user/web_user.iml" filepath="$PROJECT_DIR$/web_user/web_user.iml" />
+    </modules>
+  </component>
+</project>
