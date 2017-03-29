@@ -18,7 +18,7 @@
             <groupId>ice.dubbo</groupId>
             <artifactId>api_goods</artifactId>
             <version>${api_goods.version}</version>
-        </dependency>+
+        </dependency>
     </dependencies>
 
 
