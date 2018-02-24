@@ -21,7 +21,7 @@ import javax.jms.Session;
  * @author yingjun
  */
 @Component
-public class TransactionBizMessageListener implements SessionAwareMessageListener<Message> {
+public class TransactionBizMessageListener implements SessionAwareMessageListener {
 
     private static final Logger log = LoggerFactory.getLogger(TransactionBizMessageListener.class);
     private final String transactionBiz = "testDistributedTransaction";

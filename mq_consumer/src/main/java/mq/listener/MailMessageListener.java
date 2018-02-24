@@ -22,7 +22,7 @@ import javax.jms.Session;
  * @author yingjun
  */
 @Component
-public class MailMessageListener implements SessionAwareMessageListener<Message> {
+public class MailMessageListener implements SessionAwareMessageListener {
 
     private final Logger log = LoggerFactory.getLogger(MailMessageListener.class);
 
