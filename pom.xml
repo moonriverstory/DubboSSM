@@ -31,7 +31,7 @@
         <mq_consumer.version>1.0.0</mq_consumer.version>
         <distributed_tools.version>1.0.0</distributed_tools.version>
 
-        <spring.version>4.2.0.RELEASE</spring.version>
+        <spring.version>4.3.0.RELEASE</spring.version>
     </properties>
 
     <dependencies>
@@ -131,6 +131,16 @@
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
             <version>2.5.3</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring</artifactId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>netty</artifactId>
+                    <groupId>org.jboss.netty</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
@@ -190,6 +200,7 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-expression</artifactId>
             <version>${spring.version}</version>
+            <!--<version>3.0.7.RELEASE</version>-->
         </dependency>
 
         <dependency>
